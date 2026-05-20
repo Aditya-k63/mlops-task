@@ -1,0 +1,12 @@
+2026-05-20 15:53:50,494 | INFO | Job started
+2026-05-20 15:53:50,494 | INFO | Loading configuration from config.yaml
+2026-05-20 15:53:50,494 | INFO | Config validated: seed=42, window=5, version=v1
+2026-05-20 15:53:50,494 | INFO | Loading dataset from data.csv
+2026-05-20 15:53:50,494 | INFO | Trying to read CSV with encoding=utf-8
+2026-05-20 15:53:50,528 | INFO | Successfully read CSV with encoding=utf-8
+2026-05-20 15:53:50,530 | INFO | Detected embedded comma-separated header. Reparsing first column.
+2026-05-20 15:53:50,544 | INFO | Rows loaded: 10000
+2026-05-20 15:53:50,544 | INFO | Computing rolling mean with window=5
+2026-05-20 15:53:50,559 | INFO | Generating binary signal
+2026-05-20 15:53:50,561 | INFO | Metrics summary: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 54, 'seed': 42, 'status': 'success'}
+2026-05-20 15:53:50,561 | INFO | Job completed successfully
