@@ -1,6 +1,6 @@
 # Minimal MLOps Batch Job
 
-This project is a small batch processing pipeline built for the T0 MLOps Engineering Internship technical assesment.
+This project is a small batch processing pipeline built for the ML/MLOps Engineering Internship technical assesment.
 
 The program reads market OHLCV data from a CSV file, computes a rolling mean on the `close` price, generates a simple binary trading signal, and saves metrics in JSON format. It also writes detailed logs so the whole execution can be tracked easily.
 
